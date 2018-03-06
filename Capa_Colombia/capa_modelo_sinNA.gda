@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>capa_modelo_sinNA</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>capa_modelo_sinNA.shp</path>
+            </datasource>
+            <layername>capa_modelo_sinNA</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>POLY_ID</var>
+                <var>ID_ESPACIA</var>
+                <var>AREA_OFICI</var>
+                <var>ENTIDAD_TE</var>
+                <var>NOM_DEPART</var>
+                <var>NOM_MUNICI</var>
+                <var>COD_DEPTO</var>
+                <var>ipm12</var>
+                <var>victimizac</var>
+                <var>c_transici</var>
+                <var>c_primaria</var>
+                <var>c_secuaria</var>
+                <var>c_media</var>
+                <var>c_basica</var>
+                <var>desercion1</var>
+                <var>global</var>
+                <var>PLC</var>
+                <var>PMA</var>
+                <var>PSC</var>
+                <var>PCN</var>
+                <var>PIN</var>
+                <var>PRC</var>
+                <var>PCC</var>
+                <var>SES2015</var>
+                <var>SESLAG</var>
+                <var>nivel89</var>
+                <var>mujeres</var>
+                <var>sgp2015</var>
+                <var>pob2015</var>
+                <var>sgp2015tas</var>
+                <var>GLOBALLAG</var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>pesos_modelo</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>rook</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>pesos_modelo.gal</path>
+                        <id_variable>POLY_ID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>SES2015</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
